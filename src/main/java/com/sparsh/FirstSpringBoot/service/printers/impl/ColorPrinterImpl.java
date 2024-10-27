@@ -1,9 +1,9 @@
-package com.sparsh.FirstSpringBoot.service.impl;
+package com.sparsh.FirstSpringBoot.service.printers.impl;
 
-import com.sparsh.FirstSpringBoot.service.BluePrinter;
-import com.sparsh.FirstSpringBoot.service.ColorPrinter;
-import com.sparsh.FirstSpringBoot.service.GreenPrinter;
-import com.sparsh.FirstSpringBoot.service.RedPrinter;
+import com.sparsh.FirstSpringBoot.service.printers.BluePrinter;
+import com.sparsh.FirstSpringBoot.service.printers.ColorPrinter;
+import com.sparsh.FirstSpringBoot.service.printers.GreenPrinter;
+import com.sparsh.FirstSpringBoot.service.printers.RedPrinter;
 
 public class ColorPrinterImpl implements ColorPrinter {
     private RedPrinter redPrinter;

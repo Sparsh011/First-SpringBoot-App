@@ -1,10 +1,13 @@
 package com.sparsh.FirstSpringBoot.config;
 
-import com.sparsh.FirstSpringBoot.service.BluePrinter;
-import com.sparsh.FirstSpringBoot.service.ColorPrinter;
-import com.sparsh.FirstSpringBoot.service.GreenPrinter;
-import com.sparsh.FirstSpringBoot.service.RedPrinter;
-import com.sparsh.FirstSpringBoot.service.impl.*;
+import com.sparsh.FirstSpringBoot.service.printers.BluePrinter;
+import com.sparsh.FirstSpringBoot.service.printers.ColorPrinter;
+import com.sparsh.FirstSpringBoot.service.printers.GreenPrinter;
+import com.sparsh.FirstSpringBoot.service.printers.RedPrinter;
+import com.sparsh.FirstSpringBoot.service.printers.impl.ColorPrinterImpl;
+import com.sparsh.FirstSpringBoot.service.printers.impl.EnglishBluePrinterImpl;
+import com.sparsh.FirstSpringBoot.service.printers.impl.EnglishRedPrinterImpl;
+import com.sparsh.FirstSpringBoot.service.printers.impl.HindiGreenPrinterImpl;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

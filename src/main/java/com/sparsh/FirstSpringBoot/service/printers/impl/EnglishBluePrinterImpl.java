@@ -1,6 +1,6 @@
-package com.sparsh.FirstSpringBoot.service.impl;
+package com.sparsh.FirstSpringBoot.service.printers.impl;
 
-import com.sparsh.FirstSpringBoot.service.BluePrinter;
+import com.sparsh.FirstSpringBoot.service.printers.BluePrinter;
 
 public class EnglishBluePrinterImpl implements BluePrinter {
     @Override
